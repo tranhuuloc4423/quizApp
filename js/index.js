@@ -15,7 +15,7 @@ function renderExamList() {
             <tr>
                 <td>${item.id + 1}</td>
                 <td>${item.name}</td>
-                <td><a href="html/lam-bai.html?id=${item.id}">Làm bài</a></td>
+                <td><a href="lam-bai.html?id=${item.id}">Làm bài</a></td>
             </tr>
         `
     })
