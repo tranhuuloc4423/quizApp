@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="test">
+        <div id="quiz">
+            <h2 class="quiz__title">
+                Câu hỏi số 1
+            </h2>
+            <div class="quizz__answers">
+                <div class="quizz__answer--item">
+                    <p class="answer__text">A</p>
+                    <input type="radio" name="answers" id="a">
+                </div>
+                <div class="quizz__answer--item">
+                    <p class="answer__text">B</p>
+                    <input type="radio" name="answers" id="b">
+                </div>
+                <div class="quizz__answer--item">
+                    <p class="answer__text">C</p>
+                    <input type="radio" name="answers" id="c">
+                </div>
+                <div class="quizz__answer--item">
+                    <p class="answer__text">D</p>
+                    <input type="radio" name="answers" id="d">
+                </div>
+            </div>
+        </div>
+        <div id="result" class="hide">
+            <h2>Chúc mừng bạn đã hoàn thành bài kiểm tra</h2>
+            <p>Số điểm của bạn là</p>
+        </div>
+        <div class="btn">
+            <button id="next">Next</button>
+            <button id="submit">Submit</button>
+            <button id="home" class="hide"><a href="index.html">Trang chủ</a></button>
+        </div>
+    </div>
+</body>
+<script src="/js/test.js"></script>
+</html>
